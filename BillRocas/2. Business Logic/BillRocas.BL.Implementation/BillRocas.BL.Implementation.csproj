@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\0. Domain\BillRocas.Domain.Common\BillRocas.Domain.Common.csproj" />
+    <ProjectReference Include="..\..\0. Domain\BillRocas.Domain.Dto\BillRocas.Domain.Dto.csproj" />
+    <ProjectReference Include="..\..\0. Domain\BillRocas.Domain.Repository\BillRocas.Domain.Repository.csproj" />
+    <ProjectReference Include="..\..\0. Domain\BillRocas.Domain\BillRocas.Domain.csproj" />
+    <ProjectReference Include="..\BillRocas.BL.Definition\BillRocas.BL.Definition.csproj" />
+  </ItemGroup>
+
+</Project>
